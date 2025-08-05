@@ -34,16 +34,27 @@ Example session:
 
 
 Choose an option:
+
 1 - Log workout
+
 2 - Show last workout
+
 3 - Show history for an exercise
+
 4 - Help
+
 5 - Exit
+
 Enter command or number: 1
+
 Log workout
+
 Exercise?: Bench Press
+
 Sets?: 3
+
 Weight?: 50
+
 Workout added!
 
 
