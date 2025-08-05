@@ -18,7 +18,7 @@ A simple command-line workout tracker for logging and reviewing your exercises, 
 
 ## Usage
 Run the script from your command line (Terminal or CMD):
-  python work out tracker(demo).py
+  python work out tracker(demo).py <directory>
 
 
 
@@ -55,6 +55,3 @@ Workout added!
 - This project is intentionally simple for learning purposes.
 - There’s no password, account, or advanced features.
 - Only accepts one user, and does not sync between computers.
-
-## License
-NONE
