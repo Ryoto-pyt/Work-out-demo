@@ -49,7 +49,7 @@ while True:
             print("Last workout:")
             print(f"Exercise: {w['exercise']}\nSets: {w['sets']}\nWeight: {w['weight']}\nDate: {w['date']}")
 
-    elif user_input in ["history","3"]:
+    elif user_input in ["Your history","3"]:
         ex = input("Which exercise? ")
         found = False
         for w in workouts:
@@ -57,7 +57,7 @@ while True:
                 print(f"\nExercise: {w['exercise']}\nSets: {w['sets']}\nWeight: {w['weight']}\nDate: {w['date']}","\n")
                 found = True
         if not found:
-            print("No recorded workouts for that exercise.")
+            print("No Previous recorded workouts for that exercise.")
 
     elif user_input in ["help","4"]:
         print("Help")
@@ -69,9 +69,12 @@ while True:
         print("5 or exit    - Exit the program")
 
     elif user_input in ["exit","5"]:
-        print("      \nBye! \n Work Hard Or Regret")
+        print("      \nBye!\n Work Hard Or Regret")
         break
 
     else:
         print("Unknown command. Type 'help' or Enter '4' for commands.")
+
+   elif:
+         Print("Error:Syntax Error")
 
